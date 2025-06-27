@@ -1,0 +1,217 @@
+:root {
+    --thumb-appearance: none;
+    --thumb-width: 15px;
+    --thumb-height: 15px;
+    --thumb-border-radius: 50%;
+
+    --thumb-width-o: 10px;
+    --thumb-height-o: 10px;
+
+    /* 進度條 */
+    --progress-thumb-background-color: rgb(82, 162, 182);
+    --progress-thumb-border: 2px solid rgb(4, 170, 211);
+
+    /* 音量條 */
+    --vol-thumb-background-color: rgb(218, 180, 223);
+    --vol-thumb-border: 2px solid rgb(228, 124, 210);
+}
+
+#container {
+    width: 40%;
+    height: 700px;
+    background-color: lightblue;
+    margin: auto;
+    box-shadow: 0px 0px 10px gray;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    min-width: 485px;
+}
+
+#musicList {
+    width: 80%;
+    height: 30px;
+    margin-top: 2rem;
+    border-radius: 5px;
+    background-color: rgb(77, 163, 212);
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0px;
+}
+
+#img {
+    position: relative;
+    width: 80%;
+    height: 60%;
+}
+
+#img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 0px 0px 10px gray;
+}
+
+
+#controlPanel {
+    width: 90%;
+    height: 100px;
+    bottom: 2rem;
+    padding: 10px;
+    align-items: center;
+}
+
+#btn {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn span {
+    border: 1px solid violet;
+    padding: 5px;
+    background-color: pink;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px gray;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    font-family: webdings;
+    text-align: center;
+}
+
+#volumeControl {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#title {
+    top: 2.5rem;
+    margin: auto;
+    height: 80px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#mainTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0px 0px 10px gray;
+}
+
+.setMute {
+    text-decoration: line-through;
+    color: rgb(73, 231, 210);
+}
+
+#volumeControl input[type="text"] {
+    width: 30px;
+    height: 25px;
+    background-color: rgb(77, 163, 212);
+    color: white;
+    font-size: 0.85rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 0.5rem;
+    display: none;
+}
+
+#title input[type="range"],
+#volumeControl input[type="range"] {
+    width: 400px;
+    height: 10px;
+    appearance: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+/* chrom/edge 的進度條&音量調圓球設定 */
+#title input[type="range"]::-webkit-slider-thumb,
+#volumeControl input[type="range"]::-webkit-slider-thumb {
+    appearance: var(--thumb-appearance);
+    width: var(--thumb-width-o);
+    height: var(--thumb-height-o);
+}
+
+#title input[type="range"]::-webkit-slider-thumb:hover {
+    appearance: var(--thumb-appearance);
+    width: var(--thumb-width);
+    height: var(--thumb-height);
+    background-color: var(--progress-thumb-background-color);
+    border-radius: var(--thumb-border-radius);
+    border: var(--progress-thumb-border);
+    transition: 0.5s;
+}
+
+#volumeControl input[type="range"]::-webkit-slider-thumb:hover {
+    appearance: var(--thumb-appearance);
+    width: var(--thumb-width);
+    height: var(--thumb-height);
+    background-color: var(--vol-thumb-background-color);
+    border-radius: var(--thumb-border-radius);
+    border: var(--vol-thumb-border);
+}
+
+/* 其他版本瀏覽器 的進度條%音量調圓球設定 */
+#title input[type="range"]::-moz-range-thumb,
+#volumeControl input[type="range"]::-moz-range-thumb {
+    appearance: var(--thumb-appearance);
+    width: var(--thumb-width-o);
+    height: var(--thumb-height-o);
+}
+
+#title input[type="range"]::-moz-range-thumb:hover {
+    appearance: var(--thumb-appearance);
+    width: var(--thumb-width);
+    height: var(--thumb-height);
+    background-color: var(--progress-thumb-background-color);
+    border-radius: var(--thumb-border-radius);
+    border: var(--progress-thumb-border);
+}
+
+#volumeControl input[type="range"]::-moz-range-thumb:hover {
+    appearance: var(--thumb-appearance);
+    width: var(--thumb-width);
+    height: var(--thumb-height);
+    background-color: var(--vol-thumb-background-color);
+    border-radius: var(--thumb-border-radius);
+    border: var(--vol-thumb-border);
+}
+
+#volumeControl span {
+    border: 1px solid rgb(47, 205, 226);
+    background-color: rgb(130, 215, 230);
+    cursor: pointer;
+    font-size: 0.8rem;
+    padding: 3px;
+    border-radius: 10%;
+}
+
+#btnSound {
+    border: 1px solid;
+    padding: 5px;
+    background-color: rgb(41, 223, 208) !important;
+    border-radius: 50% !important;
+    box-shadow: 0px 0px 10px gray;
+    color: white;
+    font-size: 1.5rem !important;
+    font-family: webdings;
+    margin-right: 0.5rem;
+}
+
+#volumeControl img {
+    width: 50px;
+    height: 50px;
+    margin-left: 0.5rem;
+}

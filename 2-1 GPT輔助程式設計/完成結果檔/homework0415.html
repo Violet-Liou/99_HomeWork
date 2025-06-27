@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //【任務一】：程式基本敘述句及語法練習
+        document.write("【任務一】：程式基本敘述句及語法練習<br>");
+        //【第一題】
+        var a = 42;
+        var b = 2.5;
+        document.write("a+b=" + (a + b) + "<br>");//加
+        document.write("a-b=" + (a - b) + "<br>");//減
+        document.write("a*b=" + (a * b) + "<br>");//乘
+        document.write("a/b=" + (a / b) + "<br>");//除
+        document.write("a%b=" + (a % b) + "<br>");//餘數
+
+
+        document.write("<hr>");
+
+        //【第二題】
+        var c, f;
+        c = 5;
+        f = 9 / 5 * c + 32;
+        document.write("攝氏" + c + "度轉華氏" + f + "度<br>");
+
+        document.write("<hr>");
+
+        //【第三題】
+        for (var i = 1; i <= 100; i++) {
+            if (i % 5 != 0) {
+                document.write(i + ", ");
+            }
+        }
+
+        document.write("<hr>");
+
+        //【第四題】
+        var sum = 0;
+        for (var i = 1; i <= 1000; i++) {
+            if (i % 3 != 0) {
+                sum += i;
+            }
+        }
+        document.write("1000以內，除3倍數以外的數總和為" + sum);
+
+        document.write("<hr><br><br><br>");
+        //----------------------------------------------------------------------------------------------------------------
+        //【任務二】：程式邏輯練習
+        document.write("【任務二】：程式邏輯練習<br>");
+        //【第一題】
+        for (var i = 1; i <= 9; i++) {
+            for (var j = 1; j <= 9; j++) {
+                document.write(i + "*" + j + "=" + (i * j));
+                if (j == 9) {
+                    document.write("<br>");
+                }
+                else {
+                    document.write(", ");
+                }
+            }
+        }
+
+        document.write("<hr>");
+
+        //【第二題】
+        var score = 0;
+        score = 65;
+        var arrScore = ["丁等", "丁等", "丁等", "丁等", "丁等", "丁等", "丙等", "乙等", "甲等", "優等"];
+        score = parseInt(score / 10);
+        document.write("您本次的成績為：" + arrScore[score]);
+
+        document.write("<hr>");
+
+        //【第三題】
+        var x = 5, y = 10;
+        x = x + y;
+        y = x - y;
+        x = x - y;
+        document.write("兩數交換後，x=" + x + ", y=" + y + "<br>");
+
+        document.write("<hr>");
+
+        //【第四題】
+        //chicken = 35 - rubby;
+        for (var rubby = 0; rubby <= 35; rubby++) {
+            if ((35 - rubby) * 2 + rubby * 4 == 94) {
+                document.write("雞有" + (35 - rubby) + "隻，兔子有" + rubby + "隻");
+                break;
+            }
+        }
+
+        document.write("<hr>");
+
+        //【第五題】
+        var number_choose = 0;
+        var number = 0;
+        number_choose = 11;
+        if (number_choose == 1 || number_choose == 2) {
+            number = 1;
+        } else {
+            var number1 = 1; //費氏數列第一個數
+            var number2 = 1; //費氏數列第二個數
+            for (var i = 3; i <= number_choose; i++) {
+                var number_box = number1;
+                number1 = number2;
+                number2 = number_box + number2;
+                number = number2;
+            }
+            document.write("費氏數列上第" + number_choose + "個值為" + number);
+        }
+
+
+        document.write("<hr><br><br><br>");
+        //----------------------------------------------------------------------------------------------------------------
+        //【任務三】：運用GPT輔助程式設計
+        document.write("【任務三】：運用GPT輔助程式設計<br>");
+
+        //【第一題】
+        var heights = [150, 190, 160]; // 身高 (公分)
+        var weights = [60, 50, 70]; // 體重 (公斤)
+        var bmis = [];
+
+        // 計算 BMI 值
+        for (var i = 0; i < heights.length; i++) {
+            var heightInMeters = heights[i] / 100; // 身高轉換為公尺
+            var bmi = weights[i] / (heightInMeters * heightInMeters);
+            bmis.push(bmi);
+        }
+
+        // 找出最小 BMI 值
+        var minBmi = Math.min(...bmis);
+        var roundedMinBmi = Math.round(minBmi);
+
+        // 判斷 BMI 是否正常
+        if (roundedMinBmi >= 18 && roundedMinBmi <= 25) {
+            document.write("最小值為" + roundedMinBmi + "，BMI正常");
+        } else {
+            document.write("最小值為" + roundedMinBmi + "，BMI不正常");
+        }
+
+        document.write("<hr>");
+
+        //【第二題】
+        var num1 = 225;
+        var num2 = 1038;
+
+        function gcd(a, b) {
+            while (b != 0) {
+                var temp = b;
+                b = a % b;
+                a = temp;
+            }
+            return a;
+        }
+
+        var result = gcd(num1, num2);
+        document.write(num1 + "及" + num2 + "之最大公因數為" + result);
+
+    </script>
+</body>
+
+</html>

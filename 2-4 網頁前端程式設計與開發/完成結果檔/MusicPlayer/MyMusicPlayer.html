@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="MyMusicPlayer.css">
+</head>
+<body>
+    <div><audio id="myMusic" src="../music/moon.mp3" onended="musicPlay()"></audio></div>
+    <div id="container">
+        <select id="musicList" onchange="changeMusic(0)">
+            <option value="../music/moon.mp3">私奔到月球</option>
+            <option value="../music/airball.mp3">告白氣球</option>
+            <option value="../music/elysees.mp3">Elysees</option>
+            <option value="../music/nothing.mp3">Nothing Gonna Change My Love For You</option>
+            <option value="../music/rain.mp3">Rain</option>
+            <option value="../music/travel.mp3">旅行</option>
+            <option value="../music/dancing at night.mp3">我在夜裡跳舞</option>
+        </select>
+        <div id="img">
+            <img src="../img/1.jpg" alt="私奔到月球">
+        </div>
+        <div id="controlPanel">
+            <div id="title">
+                <div id="mainTitle">私奔到月球</div>
+                <div>
+                    <span id="time">00:00 / 00:00</span>
+                    <span id="status">循環播放</span>
+                </div>
+                <input id="titlebar" type="range" oninput="setTime();" min="0" step="1" value="0" >  
+            </div>
+            <div id="btn">
+                <span onclick="changeMusic(-1);">9</span>
+                <span onclick="backOrForward(-5);">7</span>
+                <span id="control1" onclick="play();">4</span> <!-- 播放音樂 -->
+                <span onclick="backOrForward(5);">8</span>
+                <span onclick="changeMusic(1);">:</span>
+                <span onclick="stop();"><</span>
+                <span id="mode" onclick="musicMode()">q</span>
+            </div>
+            <div id="volumeControl">
+                <span id="btnSound" onclick="sound();">U</span>
+                <span onclick="volumnChange(-1);">-</span>
+                <input type="range" oninput="setVolumnRange();" value="60">
+                <span onclick="volumnChange(1);">+</span>
+                <input type="text" value="60" readonly>
+                <img src="../img/logo.png" alt="分屬logo">
+            </div>
+        </div>
+    </div>
+    <script src="MyMusicPlayer.js"></script>
+</body>
+</html>
