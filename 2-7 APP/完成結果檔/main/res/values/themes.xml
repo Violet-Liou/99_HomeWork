@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+<!--    以下為【預設】，也就是出現此行會回歸預設數值，任何的改動都不會有任何改變，一率是以預設值呈現-->
+<!--    <style name="Base.Theme.Application_1" parent="Theme.Material3.DayNight.NoActionBar">-->
+
+<!--    以下為【使用自己的設計】，若有要對其做任何的設計修改，就要用這行-->
+<!--    NoActionBar是指不要有上放的bar-->
+<!--    <style name="Base.Theme.Application_1" parent="Theme.AppCompat.DayNight.DarkActionBar">-->
+    <style name="Base.Theme.Application_1" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Application_1" parent="Base.Theme.Application_1" />
+</resources>

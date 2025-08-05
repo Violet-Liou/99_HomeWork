@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--已勾-->
+<!--    <item android:state_checked="true"-->
+<!--          android:drawable="@android:drawable/btn_star_big_on"-->
+<!--        />-->
+<!--    @android:drawable/btn_star_big_on  此開發工具內建的星星樣式-->
+    <item android:state_checked="true"
+        android:drawable="@drawable/checked"
+        />
+
+<!--未勾-->
+<!--    <item android:drawable="@android:drawable/btn_star_big_off"-->
+<!--        />-->
+
+    <item android:drawable="@drawable/unchecked"
+        />
+
+</selector>

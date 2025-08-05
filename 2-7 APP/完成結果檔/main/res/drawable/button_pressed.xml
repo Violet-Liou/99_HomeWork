@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    設定按鈕按下後，變顏色-->
+
+<!--    按下按鈕後，要呈現的樣子-->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#D94E28" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+
+<!--    按下按鈕前，要呈現的樣子-->
+    <item>
+        <shape>
+            <solid android:color="#6571DC" />
+            <corners android:radius="5dp" />
+        </shape>
+    </item>
+</selector>

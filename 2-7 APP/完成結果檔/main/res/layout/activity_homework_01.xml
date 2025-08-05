@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="MusicPlayer Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#A378E0"
+        android:layout_marginTop="20dp"/>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:src="@drawable/picture01"
+        android:scaleType="fitXY"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="帳號："
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+        
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="請輸入帳號"
+            android:textColor="#9E58E6"
+            android:textColorHint="#D68EE2"
+            android:textColorHighlight="#7BDEC1"
+            android:typeface="sans"
+            android:inputType="text"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密碼："
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            />
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:hint="請輸入密碼"
+            android:textColor="#9E58E6"
+            android:textColorHint="#D68EE2"
+            android:textColorHighlight="#7BDEC1"
+            android:typeface="sans"
+            android:inputType="text"
+            />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 學生  "
+            android:textSize="18sp"
+            android:button="@drawable/checkbox_checked_android"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 教師  "
+            android:textSize="18sp"
+            android:button="@drawable/checkbox_checked_android"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 員工  "
+            android:textSize="18sp"
+            android:button="@drawable/checkbox_checked_android"
+            />
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登入"
+            android:textSize="18sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="註冊"
+            android:textSize="18sp"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>

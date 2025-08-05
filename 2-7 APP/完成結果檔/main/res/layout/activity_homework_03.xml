@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/textview_01"
+        android:text="constraintlayout Login"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#A378E0"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="160dp"
+        android:src="@drawable/picture03"
+        android:id="@+id/imageview_01"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_01"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_account"
+        android:text="帳號："
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/imageview_01"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="請輸入帳號"
+        android:textColor="#9E58E6"
+        android:textColorHint="#D68EE2"
+        android:textColorHighlight="#7BDEC1"
+        android:typeface="sans"
+        android:inputType="text"
+        app:layout_constraintLeft_toRightOf="@id/textview_account"
+        app:layout_constraintBaseline_toBaselineOf="@id/textview_account"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview_password"
+        android:text="密碼："
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/textview_account"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:hint="請輸入密碼"
+        android:textColor="#9E58E6"
+        android:textColorHint="#D68EE2"
+        android:textColorHighlight="#7BDEC1"
+        android:typeface="sans"
+        android:inputType="text"
+        app:layout_constraintLeft_toRightOf="@id/textview_password"
+        app:layout_constraintBaseline_toBaselineOf="@id/textview_password"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:id="@+id/radioGroup_01"
+        app:layout_constraintTop_toBottomOf="@id/textview_password"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 學生  "
+            android:textSize="18sp"
+            android:button="@drawable/checkbox_checked_android"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 教師  "
+            android:textSize="18sp"
+            android:button="@drawable/checkbox_checked_android"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 員工  "
+            android:textSize="18sp"
+            android:button="@drawable/checkbox_checked_android"
+            />
+
+    </RadioGroup>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_h_01"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="390dp"
+        />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_v_01"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="65dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_01"
+        android:text="登入"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/guideline_h_01"
+        app:layout_constraintLeft_toRightOf="@id/guideline_v_01"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="註冊"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/guideline_h_01"
+        app:layout_constraintLeft_toRightOf="@id/button_01"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
