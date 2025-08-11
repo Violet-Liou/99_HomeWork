@@ -1,0 +1,54 @@
+﻿@model Homework_1.Models.MainContent
+
+@{
+    ViewData["Title"] = "Display";
+}
+
+<h1>Display</h1>
+
+<div>
+    <h4>MainContent</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MTitle)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MTitle)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MContent)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MContent)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MPhoto)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MPhoto)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MPhotoType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MPhotoType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NAuthor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NAuthor)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    @* <a asp-action="Edit" asp-route-id="@Model?.MainID">Edit</a> | *@
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Homework_1.Models.MainContent>
+
+@{
+    ViewData["Title"] = "~留言板版~";
+}
+
+
+<div class="container py-4" style="background-color: ivory;">
+    <h1 class="mb-4 text-center fw-bold " style="background-color: bisque; border-radius: 5px; color:saddlebrown">@ViewData["Title"]</h1>
+
+    <p>
+        <a asp-action="Create" class="btn btn-warning">Create New</a>
+    </p>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+        <div class="col-xl-6 col-md-6">
+                <div class="card mb-4" style="background-color: cornsilk;">
+                @* //2.4.8 在Index View中加入未上傳照片的留言之顯示方式 *@
+                @if (item.MPhoto != null)
+                {
+                    <img src="~/BookPhotos/@item.MPhoto" class="card-img-top img-thumbnail" />
+                }
+                <div class="card-body">
+                    <h3>@Html.DisplayFor(modelItem => item.MTitle)</h3>
+
+                    @* 	//2.4.10 在Index View中加入處理「有換行的留言」顯示方式  \r\n → <br> *@
+                    <p>	@Html.Raw(item.MContent.Replace("\r\n", "<br>"))</p>
+                </div>
+                <div class="card-footer">
+                    <p class="text-end">
+                        @Html.DisplayFor(modelItem => item.NAuthor) 於 	@Html.DisplayFor(modelItem => item.CreatedDate)
+                        <a asp-action="Display" asp-route-id="@item.MainID">看更多...</a>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        }
+    </div>
+</div>

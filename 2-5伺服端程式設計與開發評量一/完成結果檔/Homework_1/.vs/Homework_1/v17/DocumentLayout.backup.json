@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|h:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\homework_1\\homework_1\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|solutionrelative:homework_1\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|h:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\homework_1\\homework_1\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|solutionrelative:homework_1\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|h:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\homework_1\\homework_1\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|solutionrelative:homework_1\\models\\seeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|h:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\homework_1\\homework_1\\models\\messageboardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|solutionrelative:homework_1\\models\\messageboardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|h:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\homework_1\\homework_1\\views\\post\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|solutionrelative:homework_1\\views\\post\\display.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|h:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\homework_1\\homework_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|solutionrelative:homework_1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|h:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\homework_1\\homework_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|solutionrelative:homework_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|h:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\homework_1\\homework_1\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|solutionrelative:homework_1\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|h:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\homework_1\\homework_1\\models\\maincontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C7D4DB3-107D-41FE-AB1F-35ED069EA3C7}|Homework_1\\Homework_1.csproj|solutionrelative:homework_1\\models\\maincontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "Homework_1\\Views\\Post\\Index.cshtml",
+              "ToolTip": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "Homework_1\\Views\\Post\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T07:45:51.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Display.cshtml",
+              "DocumentMoniker": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Views\\Post\\Display.cshtml",
+              "RelativeDocumentMoniker": "Homework_1\\Views\\Post\\Display.cshtml",
+              "ToolTip": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Views\\Post\\Display.cshtml",
+              "RelativeToolTip": "Homework_1\\Views\\Post\\Display.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-11T07:45:52.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Homework_1\\Controllers\\PostController.cs",
+              "ToolTip": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Homework_1\\Controllers\\PostController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wCYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:42:52.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Models\\SeedData.cs",
+              "RelativeDocumentMoniker": "Homework_1\\Models\\SeedData.cs",
+              "ToolTip": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Models\\SeedData.cs",
+              "RelativeToolTip": "Homework_1\\Models\\SeedData.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAA4wAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T07:05:21.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Program.cs",
+              "RelativeDocumentMoniker": "Homework_1\\Program.cs",
+              "ToolTip": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Program.cs",
+              "RelativeToolTip": "Homework_1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:32:13.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\appsettings.json",
+              "RelativeDocumentMoniker": "Homework_1\\appsettings.json",
+              "ToolTip": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\appsettings.json",
+              "RelativeToolTip": "Homework_1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-11T06:30:44.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageBoardContext.cs",
+              "DocumentMoniker": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Models\\MessageBoardContext.cs",
+              "RelativeDocumentMoniker": "Homework_1\\Models\\MessageBoardContext.cs",
+              "ToolTip": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Models\\MessageBoardContext.cs",
+              "RelativeToolTip": "Homework_1\\Models\\MessageBoardContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:30:16.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Response.cs",
+              "DocumentMoniker": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "Homework_1\\Models\\Response.cs",
+              "ToolTip": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Models\\Response.cs",
+              "RelativeToolTip": "Homework_1\\Models\\Response.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T06:16:25.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainContent.cs",
+              "DocumentMoniker": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Models\\MainContent.cs",
+              "RelativeDocumentMoniker": "Homework_1\\Models\\MainContent.cs",
+              "ToolTip": "H:\\\u4F5C\u696D\\2-5\u4F3A\u670D\u7AEF\u7A0B\u5F0F\u8A2D\u8A08\u8207\u958B\u767C\u8A55\u91CF\u4E00\\\u5B8C\u6210\u7D50\u679C\u6A94\\Homework_1\\Homework_1\\Models\\MainContent.cs",
+              "RelativeToolTip": "Homework_1\\Models\\MainContent.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAywC4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T04:00:28.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

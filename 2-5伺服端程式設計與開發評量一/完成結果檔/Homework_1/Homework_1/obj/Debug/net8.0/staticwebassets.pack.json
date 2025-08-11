@@ -1,0 +1,289 @@
+{
+  "Files": [
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Homework_1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Homework_1.xu6n6yb4y0.bundle.scp.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\7997943a-590a-4c34-8e7f-21b735db61d3.jpg",
+      "PackagePath": "staticwebassets\\BookPhotos\\7997943a-590a-4c34-8e7f-21b735db61d3.jpg"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\9d381f8b-607f-4cb7-8c74-8d1fa112495d.jpg",
+      "PackagePath": "staticwebassets\\BookPhotos\\9d381f8b-607f-4cb7-8c74-8d1fa112495d.jpg"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\bdc30524-d00e-419c-a517-a7e569bff5a7.jpg",
+      "PackagePath": "staticwebassets\\BookPhotos\\bdc30524-d00e-419c-a517-a7e569bff5a7.jpg"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\bf2670f1-e556-4ba1-9190-1b94cb7ffe9a.jpg",
+      "PackagePath": "staticwebassets\\BookPhotos\\bf2670f1-e556-4ba1-9190-1b94cb7ffe9a.jpg"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\d184a121-d353-4c02-a229-2a2b3b567f55.jpg",
+      "PackagePath": "staticwebassets\\BookPhotos\\d184a121-d353-4c02-a229-2a2b3b567f55.jpg"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Homework_1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Homework_1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Homework_1.props",
+      "PackagePath": "build\\Homework_1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Homework_1.props",
+      "PackagePath": "buildMultiTargeting\\Homework_1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Homework_1.props",
+      "PackagePath": "buildTransitive\\Homework_1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

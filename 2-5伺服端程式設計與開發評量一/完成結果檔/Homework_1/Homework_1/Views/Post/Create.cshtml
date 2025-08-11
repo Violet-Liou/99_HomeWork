@@ -1,0 +1,81 @@
+﻿@model Homework_1.Models.MainContent
+
+@{
+    ViewData["Title"] = "新增留言文章";
+}
+
+<div style="background-color: ivory;">
+    <h1 style="background-color: bisque; border-radius: 5px; color:saddlebrown">@ViewData["Title"]</h1>
+
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for="MainID" class="form-control" value="@Guid.NewGuid()" />
+                <div class="form-group">
+                    <label asp-for="MTitle" class="control-label"></label>
+                    <input asp-for="MTitle" class="form-control" />
+                    <span asp-validation-for="MTitle" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MContent" class="control-label"></label>
+                    <textarea asp-for="MContent" class="form-control"></textarea>
+                    <span asp-validation-for="MContent" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MPhoto" class="control-label"></label>
+                    <input type="file" name="newPhoto" id="newPhoto" class="form-control" />
+                    <span asp-validation-for="MPhoto" class="text-danger"></span>
+                    <span class="text-danger">@ViewData["ErrMessage"]</span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MPhotoType" class="control-label"></label>
+                    <input asp-for="MPhotoType" class="form-control" />
+                    <span asp-validation-for="MPhotoType" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="NAuthor" class="control-label"></label>
+                    <input asp-for="NAuthor" class="form-control" />
+                    <span asp-validation-for="NAuthor" class="text-danger"></span>
+                </div>
+                <div class="form-group mt-4">
+                    <input type="submit" value="Submit" class="btn btn-warning" />
+                    <a asp-action="Index" class="btn btn-outline-primary">Back to List</a>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-8">
+            <img id="photoPreview" class="img-thumbnail" />
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    @* 照片可先預覽 *@
+    <script>
+        $('#newPhoto').on( 'change' , function(){
+            let file= this.files[0];
+
+            if (file) {
+                let reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#photoPreview').attr('src', e.target.result);
+                }
+                reader.readAsDataURL(file);
+
+            } else {
+                $('#photoPreview').attr('src', '');
+            }
+
+        } );
+    </script>
+
+
+
+}   
