@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Homework_1.Models.Response>
+@{
+    Layout = null;
+}
+
+@if (Model.Count() != 0)
+{
+	<h4 class="text-center">所有回覆</h4>
+	<div class="border border-1 rounded p-3 bg-light">
+
+		@foreach (var item in Model)
+		{
+			<p>@Html.Raw(item.RContent.Replace("\r\n", "<br>"))</p>
+			<p class="text-end">@Html.DisplayFor(modelItem => item.RAuthor) 於 @Html.DisplayFor(modelItem => item.CreatedDate) 回覆</p>
+			<hr />
+		}
+	</div>
+}

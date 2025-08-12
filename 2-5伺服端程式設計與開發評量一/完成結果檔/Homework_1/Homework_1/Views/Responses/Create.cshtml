@@ -1,0 +1,39 @@
+﻿@model Homework_1.Models.Response
+
+@{
+    Layout = null;
+}
+
+<div class="row">
+    <div class="col-12">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="ResponseID" class="form-control" value="@Guid.NewGuid()" />
+            <div class="form-group">
+                <label asp-for="RContent" class="control-label"></label>
+                <textarea asp-for="RContent" class="form-control" rows="8"></textarea>
+                <span asp-validation-for="RContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RAuthor" class="control-label"></label>
+                <input asp-for="RAuthor" class="form-control" />
+                <span asp-validation-for="RAuthor" class="text-danger"></span>
+            </div>
+
+
+            <input asp-for="MainID" class="form-control" value="@ViewBag.MainID" />
+
+            <div class="form-group mt-4">
+
+                <div class="d-grid gap-2">
+                    <input type="button" onclick="addReBook()" value="確定回覆" class="btn btn-success" />
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

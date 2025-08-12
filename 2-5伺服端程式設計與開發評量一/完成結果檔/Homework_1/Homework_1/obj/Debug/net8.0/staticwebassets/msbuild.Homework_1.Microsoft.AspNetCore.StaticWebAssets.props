@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookPhotos\789d378a-6040-4e01-af12-0d7857c4a5a0.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Homework_1</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Homework_1</BasePath>
+      <RelativePath>BookPhotos/789d378a-6040-4e01-af12-0d7857c4a5a0.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gnye1k4dbx</Fingerprint>
+      <Integrity>FGgiQey6VUiGRqZnH4boQczeRRrBhFxZdRkIuzOAg1s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookPhotos\789d378a-6040-4e01-af12-0d7857c4a5a0.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookPhotos\7997943a-590a-4c34-8e7f-21b735db61d3.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Homework_1</SourceId>
@@ -35,6 +53,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookPhotos\9d381f8b-607f-4cb7-8c74-8d1fa112495d.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookPhotos\ae38c0f5-c789-45a6-8718-bc47721b9661.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Homework_1</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Homework_1</BasePath>
+      <RelativePath>BookPhotos/ae38c0f5-c789-45a6-8718-bc47721b9661.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>avgmxn49mw</Fingerprint>
+      <Integrity>GgQblpi2wKj+IAJ8s7f+dkIkf52RY7gGeRvJx/HWjIc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookPhotos\ae38c0f5-c789-45a6-8718-bc47721b9661.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookPhotos\bdc30524-d00e-419c-a517-a7e569bff5a7.jpg'))">
       <SourceType>Package</SourceType>

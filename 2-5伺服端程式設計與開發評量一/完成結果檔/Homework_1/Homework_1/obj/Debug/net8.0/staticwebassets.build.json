@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Zk1PlJtB9pbrR5E6qlSjAuxswNj1QbUhpIOSbMz2Zu4=",
+  "Hash": "Ktbj2XFPrqzxfB8AvyQxGSK9OQQ2luui7cKH1RHy9dE=",
   "Source": "Homework_1",
   "BasePath": "_content/Homework_1",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Homework_1.bundle.scp.css"
     },
     {
+      "Identity": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\789d378a-6040-4e01-af12-0d7857c4a5a0.jpg",
+      "SourceId": "Homework_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\",
+      "BasePath": "_content/Homework_1",
+      "RelativePath": "BookPhotos/789d378a-6040-4e01-af12-0d7857c4a5a0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gnye1k4dbx",
+      "Integrity": "FGgiQey6VUiGRqZnH4boQczeRRrBhFxZdRkIuzOAg1s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BookPhotos\\789d378a-6040-4e01-af12-0d7857c4a5a0.jpg"
+    },
+    {
       "Identity": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\7997943a-590a-4c34-8e7f-21b735db61d3.jpg",
       "SourceId": "Homework_1",
       "SourceType": "Discovered",
@@ -99,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\BookPhotos\\9d381f8b-607f-4cb7-8c74-8d1fa112495d.jpg"
+    },
+    {
+      "Identity": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\ae38c0f5-c789-45a6-8718-bc47721b9661.jpg",
+      "SourceId": "Homework_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\",
+      "BasePath": "_content/Homework_1",
+      "RelativePath": "BookPhotos/ae38c0f5-c789-45a6-8718-bc47721b9661#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "avgmxn49mw",
+      "Integrity": "GgQblpi2wKj+IAJ8s7f+dkIkf52RY7gGeRvJx/HWjIc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BookPhotos\\ae38c0f5-c789-45a6-8718-bc47721b9661.jpg"
     },
     {
       "Identity": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\bdc30524-d00e-419c-a517-a7e569bff5a7.jpg",
@@ -1426,6 +1468,88 @@
   ],
   "Endpoints": [
     {
+      "Route": "BookPhotos/789d378a-6040-4e01-af12-0d7857c4a5a0.gnye1k4dbx.jpg",
+      "AssetFile": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\789d378a-6040-4e01-af12-0d7857c4a5a0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "374843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGgiQey6VUiGRqZnH4boQczeRRrBhFxZdRkIuzOAg1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Aug 2025 02:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gnye1k4dbx"
+        },
+        {
+          "Name": "label",
+          "Value": "BookPhotos/789d378a-6040-4e01-af12-0d7857c4a5a0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FGgiQey6VUiGRqZnH4boQczeRRrBhFxZdRkIuzOAg1s="
+        }
+      ]
+    },
+    {
+      "Route": "BookPhotos/789d378a-6040-4e01-af12-0d7857c4a5a0.jpg",
+      "AssetFile": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\789d378a-6040-4e01-af12-0d7857c4a5a0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "374843"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGgiQey6VUiGRqZnH4boQczeRRrBhFxZdRkIuzOAg1s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Aug 2025 02:32:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FGgiQey6VUiGRqZnH4boQczeRRrBhFxZdRkIuzOAg1s="
+        }
+      ]
+    },
+    {
       "Route": "BookPhotos/7997943a-590a-4c34-8e7f-21b735db61d3.jpg",
       "AssetFile": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\7997943a-590a-4c34-8e7f-21b735db61d3.jpg",
       "Selectors": [],
@@ -1586,6 +1710,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-jvkNSvX1V8wK5v8dMgGX0oy1Q9TPwG/rBIzl796DS7M="
+        }
+      ]
+    },
+    {
+      "Route": "BookPhotos/ae38c0f5-c789-45a6-8718-bc47721b9661.avgmxn49mw.jpg",
+      "AssetFile": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\ae38c0f5-c789-45a6-8718-bc47721b9661.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GgQblpi2wKj+IAJ8s7f+dkIkf52RY7gGeRvJx/HWjIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Aug 2025 02:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "avgmxn49mw"
+        },
+        {
+          "Name": "label",
+          "Value": "BookPhotos/ae38c0f5-c789-45a6-8718-bc47721b9661.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GgQblpi2wKj+IAJ8s7f+dkIkf52RY7gGeRvJx/HWjIc="
+        }
+      ]
+    },
+    {
+      "Route": "BookPhotos/ae38c0f5-c789-45a6-8718-bc47721b9661.jpg",
+      "AssetFile": "H:\\作業\\2-5伺服端程式設計與開發評量一\\完成結果檔\\Homework_1\\Homework_1\\wwwroot\\BookPhotos\\ae38c0f5-c789-45a6-8718-bc47721b9661.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "221922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GgQblpi2wKj+IAJ8s7f+dkIkf52RY7gGeRvJx/HWjIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Aug 2025 02:17:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GgQblpi2wKj+IAJ8s7f+dkIkf52RY7gGeRvJx/HWjIc="
         }
       ]
     },
@@ -2022,7 +2228,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 08:28:01 GMT"
+          "Value": "Tue, 12 Aug 2025 08:33:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2059,7 +2265,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 08:28:01 GMT"
+          "Value": "Tue, 12 Aug 2025 08:33:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2096,7 +2302,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 08:28:01 GMT"
+          "Value": "Tue, 12 Aug 2025 08:33:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2141,7 +2347,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 11 Aug 2025 08:28:01 GMT"
+          "Value": "Tue, 12 Aug 2025 08:33:55 GMT"
         },
         {
           "Name": "Cache-Control",

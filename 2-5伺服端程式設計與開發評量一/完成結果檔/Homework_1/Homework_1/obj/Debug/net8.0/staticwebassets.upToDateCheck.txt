@@ -1,5 +1,7 @@
+wwwroot\BookPhotos\789d378a-6040-4e01-af12-0d7857c4a5a0.jpg
 wwwroot\BookPhotos\7997943a-590a-4c34-8e7f-21b735db61d3.jpg
 wwwroot\BookPhotos\9d381f8b-607f-4cb7-8c74-8d1fa112495d.jpg
+wwwroot\BookPhotos\ae38c0f5-c789-45a6-8718-bc47721b9661.jpg
 wwwroot\BookPhotos\bdc30524-d00e-419c-a517-a7e569bff5a7.jpg
 wwwroot\BookPhotos\bf2670f1-e556-4ba1-9190-1b94cb7ffe9a.jpg
 wwwroot\BookPhotos\d184a121-d353-4c02-a229-2a2b3b567f55.jpg

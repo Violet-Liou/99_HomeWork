@@ -1,54 +1,82 @@
 ﻿@model Homework_1.Models.MainContent
 
 @{
-    ViewData["Title"] = "Display";
+    ViewData["Title"] = "留言明細";
 }
 
-<h1>Display</h1>
+<h1 class="container py-4 fw-bold" style="background-color: ivory; color:saddlebrown">
+    @Html.DisplayFor(modelItem => Model.MTitle)
+</h1>
 
 <div>
-    <h4>MainContent</h4>
+    <div class="card mb-4">
+        @if (Model.MPhoto != null)
+        {
+            <img src="~/BookPhotos/@Model.MPhoto" class="card-img-top img-thumbnail" />
+        }
+        <div class="card-body fs-4">
+            <p>	@Html.Raw(Model.MContent.Replace("\r\n", "<br>"))</p>
+        </div>
+        <div class="card-footer">
+            <div class="text-end">照片類型： @Html.DisplayFor(modelItem => Model.MPhotoType)</div>
+            <div class="text-end">
+                @Html.DisplayFor(modelItem => Model.NAuthor) 於 	@Html.DisplayFor(modelItem => Model.CreatedDate)
+            </div>
+        </div>
+    </div>
     <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MTitle)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MTitle)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MContent)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MContent)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MPhoto)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MPhoto)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.MPhotoType)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.MPhotoType)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NAuthor)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.NAuthor)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedDate)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CreatedDate)
-        </dd>
-    </dl>
+
+    @* 嵌入回覆留言表單 *@
+    <div id="ResponseList">
+        @await Component.InvokeAsync("VCPost", new { MainID = Model.MainID, isDel = false })
+    </div>
 </div>
 <div>
     @* <a asp-action="Edit" asp-route-id="@Model?.MainID">Edit</a> | *@
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index" class="btn btn-outline-primary">Back to List</a>
 </div>
+
+
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+	<script>
+		$('#ResponseForm').load('/Response/Create?MainID=@(Model.MainID)',function(){
+			$.validator.unobtrusive.parse($('#ResponseForm'));
+		});
+
+		const ReBookFormModal = new bootstrap.Modal(document.getElementById('ResponseFormModal'));
+
+		function addReBook(){
+			if(!$('#ResponseForm form').valid()){
+				return;
+			}
+
+
+			$.ajax({
+				type:"Post",
+				url:"/Response/Create",
+				data: $('#ResponseForm form').serialize(),
+				success:function(){
+
+					//1.更新底下的回覆留言區
+					$('#ReBookList').load('/Response/GetResponseByViewComponent?MainID=@(Model.MainID)');
+
+
+					//2.將表單重新載入
+					$('#ResponseForm').load('/Response/Create?MainID=@(Model.MainID)',function(){
+						$.validator.unobtrusive.parse($('#ResponseForm'));
+					});
+
+					//3.將modal隱藏
+					ReBookFormModal.hide();
+				},
+				error:function(){
+
+				}
+			});
+		}
+	</script>
+}

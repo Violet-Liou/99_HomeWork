@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<Homework_1.Models.MainContent>
 
 @{
-    ViewData["Title"] = "~留言板版~";
+    ViewData["Title"] = "~留言版版~";
 }
 
 
@@ -23,15 +23,15 @@
                     <img src="~/BookPhotos/@item.MPhoto" class="card-img-top img-thumbnail" />
                 }
                 <div class="card-body">
-                    <h3>@Html.DisplayFor(modelItem => item.MTitle)</h3>
-
+                        <h3 class="fw-bold" style="color:sienna">@Html.DisplayFor(modelItem => item.MTitle)</h3>
                     @* 	//2.4.10 在Index View中加入處理「有換行的留言」顯示方式  \r\n → <br> *@
                     <p>	@Html.Raw(item.MContent.Replace("\r\n", "<br>"))</p>
                 </div>
                 <div class="card-footer">
                     <p class="text-end">
                         @Html.DisplayFor(modelItem => item.NAuthor) 於 	@Html.DisplayFor(modelItem => item.CreatedDate)
-                        <a asp-action="Display" asp-route-id="@item.MainID">看更多...</a>
+                        &nbsp;
+                        <a asp-action="Display" asp-route-id="@item.MainID" class="btn btn-outline-danger">Read More</a>
                     </p>
                 </div>
 
