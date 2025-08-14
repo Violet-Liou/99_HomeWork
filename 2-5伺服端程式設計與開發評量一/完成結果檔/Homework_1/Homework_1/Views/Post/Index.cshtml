@@ -15,26 +15,38 @@
     <div class="row">
         @foreach (var item in Model)
         {
-        <div class="col-xl-6 col-md-6">
-                <div class="card mb-4" style="background-color: cornsilk;">
-                @* //2.4.8 在Index View中加入未上傳照片的留言之顯示方式 *@
-                @if (item.MPhoto != null)
-                {
-                    <img src="~/BookPhotos/@item.MPhoto" class="card-img-top img-thumbnail" />
-                }
-                <div class="card-body">
-                        <h3 class="fw-bold" style="color:sienna">@Html.DisplayFor(modelItem => item.MTitle)</h3>
-                    @* 	//2.4.10 在Index View中加入處理「有換行的留言」顯示方式  \r\n → <br> *@
-                    <p>	@Html.Raw(item.MContent.Replace("\r\n", "<br>"))</p>
+            <div class="col-xl-6 col-md-12" >
+            <div class="card mb-4" style="background-color: cornsilk;">
+                <div class="row">
+                        <div class="col-5" >
+                        @if (item.MPhoto != null)
+                        {
+                        <img src="~/BookPhotos/@item.MPhoto" class="card-img-top img-thumbnail" style="max-height:200px;"  alt="@item.MPhotoType" />
+                        }
+                    </div>
+                    <div class="col-7">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-8"><h3 class="fw-bold" style="color:sienna">@Html.DisplayFor(modelItem => item.MTitle)</h3></div>
+                                @if (item.MPhotoType != null)
+                                {
+                                <div class="col-4 fw-bold align-items-end" style="color:chocolate">【@Html.DisplayFor(modelItem => item.MPhotoType)】</div>
+                                }
+                            </div>
+                            @* 	//2.4.10 在Index View中加入處理「有換行的留言」顯示方式  \r\n → <br> *@
+                                <div calss="d-inline-block text-truncate" style="height:6em; overflow:hidden;">	@Html.Raw(item.MContent.Replace("\r\n", "<br>"))</div>
+                        </div>
+                    </div>
+                        <div class="card-footer">
+                            <p class="text-end" >
+                                @Html.DisplayFor(modelItem => item.NAuthor) 於 	@Html.DisplayFor(modelItem => item.CreatedDate)
+                                &nbsp;
+                                <a asp-action="Display" asp-route-id="@item.MainID" class="btn btn-outline-danger">Read More</a>
+                                &nbsp;
+                            </p>
+                        </div>
+                    
                 </div>
-                <div class="card-footer">
-                    <p class="text-end">
-                        @Html.DisplayFor(modelItem => item.NAuthor) 於 	@Html.DisplayFor(modelItem => item.CreatedDate)
-                        &nbsp;
-                        <a asp-action="Display" asp-route-id="@item.MainID" class="btn btn-outline-danger">Read More</a>
-                    </p>
-                </div>
-
             </div>
         </div>
         }

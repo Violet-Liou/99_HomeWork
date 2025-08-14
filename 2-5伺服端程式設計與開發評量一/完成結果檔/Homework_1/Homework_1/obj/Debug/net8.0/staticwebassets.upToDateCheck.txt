@@ -5,6 +5,7 @@ wwwroot\BookPhotos\ae38c0f5-c789-45a6-8718-bc47721b9661.jpg
 wwwroot\BookPhotos\bdc30524-d00e-419c-a517-a7e569bff5a7.jpg
 wwwroot\BookPhotos\bf2670f1-e556-4ba1-9190-1b94cb7ffe9a.jpg
 wwwroot\BookPhotos\d184a121-d353-4c02-a229-2a2b3b567f55.jpg
+wwwroot\BookPhotos\d3b9886f-2945-4e58-bc19-09839c3453e3.jpg
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

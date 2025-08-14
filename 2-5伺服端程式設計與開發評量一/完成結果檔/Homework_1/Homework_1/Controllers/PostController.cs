@@ -51,8 +51,6 @@ namespace Homework_1.Controllers
         }
 
         // POST: Post/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("MainID,MTitle,MContent,MPhoto,MPhotoType,NAuthor,CreatedDate")] MainContent mainContent, IFormFile? newPhoto)
@@ -94,11 +92,6 @@ namespace Homework_1.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(mainContent);
-        }
-
-        private bool MainContentExists(string id)
-        {
-            return _context.MainContent.Any(e => e.MainID == id);
         }
     }
 }

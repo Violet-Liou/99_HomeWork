@@ -577,6 +577,88 @@
       ]
     },
     {
+      "Route": "BookPhotos/d3b9886f-2945-4e58-bc19-09839c3453e3.jpg",
+      "AssetFile": "BookPhotos/d3b9886f-2945-4e58-bc19-09839c3453e3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "439049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b84UeatliTcVhK1xTMajs10Eqs9dQ1O/Vm2QcrreB/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Aug 2025 01:03:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b84UeatliTcVhK1xTMajs10Eqs9dQ1O/Vm2QcrreB/E="
+        }
+      ]
+    },
+    {
+      "Route": "BookPhotos/d3b9886f-2945-4e58-bc19-09839c3453e3.v4wrz8p1cq.jpg",
+      "AssetFile": "BookPhotos/d3b9886f-2945-4e58-bc19-09839c3453e3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "439049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b84UeatliTcVhK1xTMajs10Eqs9dQ1O/Vm2QcrreB/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 14 Aug 2025 01:03:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v4wrz8p1cq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b84UeatliTcVhK1xTMajs10Eqs9dQ1O/Vm2QcrreB/E="
+        },
+        {
+          "Name": "label",
+          "Value": "BookPhotos/d3b9886f-2945-4e58-bc19-09839c3453e3.jpg"
+        }
+      ]
+    },
+    {
       "Route": "Homework_1.styles.css",
       "AssetFile": "Homework_1.styles.css",
       "Selectors": [],
@@ -603,7 +685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 12 Aug 2025 08:33:55 GMT"
+          "Value": "Thu, 14 Aug 2025 01:12:53 GMT"
         }
       ],
       "EndpointProperties": [
@@ -640,7 +722,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 12 Aug 2025 08:33:55 GMT"
+          "Value": "Thu, 14 Aug 2025 01:12:53 GMT"
         }
       ],
       "EndpointProperties": [

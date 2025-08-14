@@ -4,12 +4,12 @@
     ViewData["Title"] = "留言明細";
 }
 
-<h1 class="container py-4 fw-bold" style="background-color: ivory; color:saddlebrown">
+<h1 class="container py-4 fw-bold" style="background-color: antiquewhite; color:saddlebrown">
     @Html.DisplayFor(modelItem => Model.MTitle)
 </h1>
 
 <div>
-    <div class="card mb-4">
+	<div class="card mb-4 fw-bold" style="background-color: antiquewhite; color:saddlebrown">
         @if (Model.MPhoto != null)
         {
             <img src="~/BookPhotos/@Model.MPhoto" class="card-img-top img-thumbnail" />
@@ -24,16 +24,41 @@
             </div>
         </div>
     </div>
-    <hr />
+
+
+	<button type="button" class="btn col-12 fs-5 fw-bold" style="background-color: saddlebrown; color:floralwhite;" data-bs-toggle="modal" data-bs-target="#ResponseFormModal">
+		我要回覆
+	</button>
+	<hr />
+
+	<!-- Modal -->
+	<div class="modal fade" id="ResponseFormModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content" style="background-color: cornsilk; color:saddlebrown;">
+				<div class="modal-header " style="background-color: antiquewhite; color:saddlebrown;">
+					<h1 class="modal-title fs-2 fw-bold">我想要回覆~OwO</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					@* //嵌入回覆留言表單 *@
+					<div id="ResponseForm" class="bg-light p-2 rounded">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
 
     @* 嵌入回覆留言表單 *@
-    <div id="ResponseList">
+	<div id="ResponseList" style="background-color: cornsilk; color:saddlebrown">
         @await Component.InvokeAsync("VCPost", new { MainID = Model.MainID, isDel = false })
     </div>
 </div>
 <div>
     @* <a asp-action="Edit" asp-route-id="@Model?.MainID">Edit</a> | *@
-    <a asp-action="Index" class="btn btn-outline-primary">Back to List</a>
+    <a asp-action="Index" class="btn btn-outline-danger">Back to List</a>
 </div>
 
 
@@ -43,13 +68,13 @@
 		await Html.RenderPartialAsync("_ValidationScriptsPartial");
 	}
 	<script>
-		$('#ResponseForm').load('/Response/Create?MainID=@(Model.MainID)',function(){
+		$('#ResponseForm').load('/Responses/Create?MainID=@(Model.MainID)',function(){
 			$.validator.unobtrusive.parse($('#ResponseForm'));
 		});
 
-		const ReBookFormModal = new bootstrap.Modal(document.getElementById('ResponseFormModal'));
+		const ResponseFormModal = new bootstrap.Modal(document.getElementById('ResponseFormModal'));
 
-		function addReBook(){
+		function addResponse(){
 			if(!$('#ResponseForm form').valid()){
 				return;
 			}
@@ -57,21 +82,21 @@
 
 			$.ajax({
 				type:"Post",
-				url:"/Response/Create",
+				url:"/Responses/Create",
 				data: $('#ResponseForm form').serialize(),
 				success:function(){
 
 					//1.更新底下的回覆留言區
-					$('#ReBookList').load('/Response/GetResponseByViewComponent?MainID=@(Model.MainID)');
+					$('#ResponseList').load('/Responses/GetResponseByViewComponent?MainID=@(Model.MainID)');
 
 
 					//2.將表單重新載入
-					$('#ResponseForm').load('/Response/Create?MainID=@(Model.MainID)',function(){
+					$('#ResponseForm').load('/Responses/Create?MainID=@(Model.MainID)',function(){
 						$.validator.unobtrusive.parse($('#ResponseForm'));
 					});
 
 					//3.將modal隱藏
-					ReBookFormModal.hide();
+					ResponseFormModal.hide();
 				},
 				error:function(){
 

@@ -46,13 +46,8 @@ namespace Homework_1.Controllers
         public IActionResult GetResponseByViewComponent(string MainID)
         {
 
-            return ViewComponent("VCPost", new { bookID = MainID });
+            return ViewComponent("VCPost", new { MainID = MainID });
 
-        }
-
-        private bool ResponseExists(string id)
-        {
-            return _context.Response.Any(e => e.ResponseID == id);
         }
     }
 }
